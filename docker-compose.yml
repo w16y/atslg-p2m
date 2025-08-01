@@ -1,0 +1,7 @@
+services:
+  plateau2minecraft:
+    build: .
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
